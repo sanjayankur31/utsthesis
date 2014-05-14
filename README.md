@@ -3,11 +3,12 @@ utsthesis
 This directory contains the UTS Thesis class.  The following files are
 supplied:
 
-utsthesis.cls          - The actual thesis class.  Some comments on its use
-                          appear in the file itself.
-thesis.tex              - An example main source file.
-mythesis.sty            - Required by "thesis.tex".  Shows how some useful
-                          things may be defined in LaTeX-2e.
+* utsthesis.cls          - The actual thesis class.  Some comments on its use
+                           appear in the file itself.
+
+* thesis.tex             - An example main source file.
+* mythesis.sty           - Required by "thesis.tex".  Shows how some useful
+                           things may be defined in LaTeX-2e.
 
 
 Usage
