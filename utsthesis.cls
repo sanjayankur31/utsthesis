@@ -255,7 +255,16 @@
     \titlepage
     \null\vfil
     \begin{center}%
-	{\Large \bfseries \abstractname}
+	%{\Large \bfseries \abstractname}
+	{\Large \bfseries Abstract}
+	\@endparpenalty\@M
+    \end{center}\spacing}%
+    {\endspacing\par\vfil\null\endtitlepage}
+
+\newenvironment{frontquote}{%
+    \titlepage
+    \null\vfil
+    \begin{center}%
 	\@endparpenalty\@M
     \end{center}\spacing}%
     {\endspacing\par\vfil\null\endtitlepage}
